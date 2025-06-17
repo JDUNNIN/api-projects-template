@@ -10,7 +10,7 @@ projects:
         revision: main
       remotes:
         origin: 'https://github.com/JDUNNIN/api-projects-template.git'
-    name: development-api
+    name: api-projects-template
 components:
     - name: tools
       container:
@@ -31,7 +31,7 @@ components:
             targetPort: 9080
         env:
           - name: ZCON_DESIGNER_PROJECT
-            value: /projects/development-api/api
+            value: /projects/api-projects-template/api
         image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.93'
         memoryLimit: 4927M
         mountSources: true 
