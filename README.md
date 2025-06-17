@@ -7,4 +7,4 @@ Each API has a directory for its contents:
 - api2
 - api3
 
-Each developer should take a fork of this repo.
+Each developer should take a fork of this repo and update the devfileV2.yaml to replace `<user>` with your GitHub user name.
