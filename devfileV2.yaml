@@ -9,7 +9,7 @@ projects:
       checkoutFrom:
         revision: main
       remotes:
-        origin: 'https://github.com/<user>/api-projects-template.git'
+        origin: 'https://github.com/JDUNNIN/api-projects-template.git'
     name: development-api
 components:
     - name: tools
